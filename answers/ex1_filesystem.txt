@@ -1,0 +1,14 @@
+$ ls
+answers  LICENSE   myfile.txt   user
+fs.img   Makefile  README
+kernel   mkfs      test-xv6.py
+
+$ echo "Hello from xv6" > myfile.txt
+$ cat myfile.txt
+Hello from xv6
+
+$ mkdir testdir
+$ ls
+answers  LICENSE   myfile.txt  test-xv6.py
+fs.img   Makefile  README      user
+kernel   mkfs      testdir
